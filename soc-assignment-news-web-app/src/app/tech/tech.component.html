@@ -1,0 +1,18 @@
+<main>
+    <h3 class="display"><b>Technology News Headlines</b></h3>
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let d of Display" class="col-lg-3 mb-3 mt-3 p-4"
+                style="background-color:rgb(195, 249, 202);">
+                <div class="box">
+                    <img src="{{d.urlToImage}}" alt="" width="100%">
+                    <b>{{d.title}}</b>
+                    <p>{{d.description}}</p>
+                    <a href="{{d.url}}" target="_blank"><button type="button">Read
+                            More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+

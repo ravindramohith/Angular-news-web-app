@@ -1,0 +1,19 @@
+.display{
+    padding: 10px;
+}
+main{
+    background-color: rgb(247, 220, 220);
+}
+button {
+    background-color: rgb(134, 6, 6);
+    border-radius: 4px;
+    border:none;
+    padding: 5px 5px 5px 5px;
+    text-decoration:none;
+    color: white;
+    transition:0.25s;
+}
+button:hover{
+    box-shadow: 0 1px 10px 2px rgb(240, 123, 123);
+    transform: translateY(-0.10em);
+}
